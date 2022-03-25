@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F896F1827EE4A7D006056EC /* NIBM_BrokerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F896F1727EE4A7D006056EC /* NIBM_BrokerApp.swift */; };
+		4F896F1A27EE4A7D006056EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F896F1927EE4A7D006056EC /* ContentView.swift */; };
+		4F896F1C27EE4A7F006056EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F896F1B27EE4A7F006056EC /* Assets.xcassets */; };
+		4F896F1F27EE4A7F006056EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F896F1E27EE4A7F006056EC /* Preview Assets.xcassets */; };
+		4F896F2927EE4A80006056EC /* NIBM_BrokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F896F2827EE4A80006056EC /* NIBM_BrokerTests.swift */; };
+		4F896F3327EE4A80006056EC /* NIBM_BrokerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F896F3227EE4A80006056EC /* NIBM_BrokerUITests.swift */; };
+		4F896F3527EE4A80006056EC /* NIBM_BrokerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F896F3427EE4A80006056EC /* NIBM_BrokerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F896F2527EE4A80006056EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F896F0C27EE4A7D006056EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F896F1327EE4A7D006056EC;
+			remoteInfo = "NIBM Broker";
+		};
+		4F896F2F27EE4A80006056EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F896F0C27EE4A7D006056EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F896F1327EE4A7D006056EC;
+			remoteInfo = "NIBM Broker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F896F1427EE4A7D006056EC /* NIBM Broker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM Broker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F896F1727EE4A7D006056EC /* NIBM_BrokerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_BrokerApp.swift; sourceTree = "<group>"; };
+		4F896F1927EE4A7D006056EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F896F1B27EE4A7F006056EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F896F1E27EE4A7F006056EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F896F2427EE4A80006056EC /* NIBM BrokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIBM BrokerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F896F2827EE4A80006056EC /* NIBM_BrokerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_BrokerTests.swift; sourceTree = "<group>"; };
+		4F896F2E27EE4A80006056EC /* NIBM BrokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIBM BrokerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F896F3227EE4A80006056EC /* NIBM_BrokerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_BrokerUITests.swift; sourceTree = "<group>"; };
+		4F896F3427EE4A80006056EC /* NIBM_BrokerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_BrokerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F896F1127EE4A7D006056EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F896F2127EE4A80006056EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F896F2B27EE4A80006056EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F896F0B27EE4A7D006056EC = {
+			isa = PBXGroup;
+			children = (
+				4F896F1627EE4A7D006056EC /* NIBM Broker */,
+				4F896F2727EE4A80006056EC /* NIBM BrokerTests */,
+				4F896F3127EE4A80006056EC /* NIBM BrokerUITests */,
+				4F896F1527EE4A7D006056EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F896F1527EE4A7D006056EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F896F1427EE4A7D006056EC /* NIBM Broker.app */,
+				4F896F2427EE4A80006056EC /* NIBM BrokerTests.xctest */,
+				4F896F2E27EE4A80006056EC /* NIBM BrokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F896F1627EE4A7D006056EC /* NIBM Broker */ = {
+			isa = PBXGroup;
+			children = (
+				4F896F4527EE4B90006056EC /* Services */,
+				4F896F4427EE4B89006056EC /* Utils */,
+				4F896F4327EE4B61006056EC /* ViewModel */,
+				4F896F4227EE4B5C006056EC /* View */,
+				4F896F4127EE4B56006056EC /* Model */,
+				4F896F1727EE4A7D006056EC /* NIBM_BrokerApp.swift */,
+				4F896F1927EE4A7D006056EC /* ContentView.swift */,
+				4F896F1B27EE4A7F006056EC /* Assets.xcassets */,
+				4F896F1D27EE4A7F006056EC /* Preview Content */,
+			);
+			path = "NIBM Broker";
+			sourceTree = "<group>";
+		};
+		4F896F1D27EE4A7F006056EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F896F1E27EE4A7F006056EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F896F2727EE4A80006056EC /* NIBM BrokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F896F2827EE4A80006056EC /* NIBM_BrokerTests.swift */,
+			);
+			path = "NIBM BrokerTests";
+			sourceTree = "<group>";
+		};
+		4F896F3127EE4A80006056EC /* NIBM BrokerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F896F3227EE4A80006056EC /* NIBM_BrokerUITests.swift */,
+				4F896F3427EE4A80006056EC /* NIBM_BrokerUITestsLaunchTests.swift */,
+			);
+			path = "NIBM BrokerUITests";
+			sourceTree = "<group>";
+		};
+		4F896F4127EE4B56006056EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F896F4227EE4B5C006056EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F896F4327EE4B61006056EC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4F896F4427EE4B89006056EC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4F896F4527EE4B90006056EC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F896F1327EE4A7D006056EC /* NIBM Broker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F896F3827EE4A80006056EC /* Build configuration list for PBXNativeTarget "NIBM Broker" */;
+			buildPhases = (
+				4F896F1027EE4A7D006056EC /* Sources */,
+				4F896F1127EE4A7D006056EC /* Frameworks */,
+				4F896F1227EE4A7D006056EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NIBM Broker";
+			productName = "NIBM Broker";
+			productReference = 4F896F1427EE4A7D006056EC /* NIBM Broker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F896F2327EE4A80006056EC /* NIBM BrokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F896F3B27EE4A80006056EC /* Build configuration list for PBXNativeTarget "NIBM BrokerTests" */;
+			buildPhases = (
+				4F896F2027EE4A80006056EC /* Sources */,
+				4F896F2127EE4A80006056EC /* Frameworks */,
+				4F896F2227EE4A80006056EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F896F2627EE4A80006056EC /* PBXTargetDependency */,
+			);
+			name = "NIBM BrokerTests";
+			productName = "NIBM BrokerTests";
+			productReference = 4F896F2427EE4A80006056EC /* NIBM BrokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F896F2D27EE4A80006056EC /* NIBM BrokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F896F3E27EE4A80006056EC /* Build configuration list for PBXNativeTarget "NIBM BrokerUITests" */;
+			buildPhases = (
+				4F896F2A27EE4A80006056EC /* Sources */,
+				4F896F2B27EE4A80006056EC /* Frameworks */,
+				4F896F2C27EE4A80006056EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F896F3027EE4A80006056EC /* PBXTargetDependency */,
+			);
+			name = "NIBM BrokerUITests";
+			productName = "NIBM BrokerUITests";
+			productReference = 4F896F2E27EE4A80006056EC /* NIBM BrokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F896F0C27EE4A7D006056EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4F896F1327EE4A7D006056EC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4F896F2327EE4A80006056EC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4F896F1327EE4A7D006056EC;
+					};
+					4F896F2D27EE4A80006056EC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4F896F1327EE4A7D006056EC;
+					};
+				};
+			};
+			buildConfigurationList = 4F896F0F27EE4A7D006056EC /* Build configuration list for PBXProject "NIBM Broker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F896F0B27EE4A7D006056EC;
+			productRefGroup = 4F896F1527EE4A7D006056EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F896F1327EE4A7D006056EC /* NIBM Broker */,
+				4F896F2327EE4A80006056EC /* NIBM BrokerTests */,
+				4F896F2D27EE4A80006056EC /* NIBM BrokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F896F1227EE4A7D006056EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F896F1F27EE4A7F006056EC /* Preview Assets.xcassets in Resources */,
+				4F896F1C27EE4A7F006056EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F896F2227EE4A80006056EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F896F2C27EE4A80006056EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F896F1027EE4A7D006056EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F896F1A27EE4A7D006056EC /* ContentView.swift in Sources */,
+				4F896F1827EE4A7D006056EC /* NIBM_BrokerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F896F2027EE4A80006056EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F896F2927EE4A80006056EC /* NIBM_BrokerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F896F2A27EE4A80006056EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F896F3327EE4A80006056EC /* NIBM_BrokerUITests.swift in Sources */,
+				4F896F3527EE4A80006056EC /* NIBM_BrokerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F896F2627EE4A80006056EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F896F1327EE4A7D006056EC /* NIBM Broker */;
+			targetProxy = 4F896F2527EE4A80006056EC /* PBXContainerItemProxy */;
+		};
+		4F896F3027EE4A80006056EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F896F1327EE4A7D006056EC /* NIBM Broker */;
+			targetProxy = 4F896F2F27EE4A80006056EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F896F3627EE4A80006056EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F896F3727EE4A80006056EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F896F3927EE4A80006056EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NIBM Broker/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CYSVYA95H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hishd.NIBM-Broker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F896F3A27EE4A80006056EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NIBM Broker/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CYSVYA95H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hishd.NIBM-Broker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F896F3C27EE4A80006056EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CYSVYA95H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hishd.NIBM-BrokerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIBM Broker.app/NIBM Broker";
+			};
+			name = Debug;
+		};
+		4F896F3D27EE4A80006056EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CYSVYA95H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hishd.NIBM-BrokerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIBM Broker.app/NIBM Broker";
+			};
+			name = Release;
+		};
+		4F896F3F27EE4A80006056EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CYSVYA95H;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hishd.NIBM-BrokerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NIBM Broker";
+			};
+			name = Debug;
+		};
+		4F896F4027EE4A80006056EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CYSVYA95H;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hishd.NIBM-BrokerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NIBM Broker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F896F0F27EE4A7D006056EC /* Build configuration list for PBXProject "NIBM Broker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F896F3627EE4A80006056EC /* Debug */,
+				4F896F3727EE4A80006056EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F896F3827EE4A80006056EC /* Build configuration list for PBXNativeTarget "NIBM Broker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F896F3927EE4A80006056EC /* Debug */,
+				4F896F3A27EE4A80006056EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F896F3B27EE4A80006056EC /* Build configuration list for PBXNativeTarget "NIBM BrokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F896F3C27EE4A80006056EC /* Debug */,
+				4F896F3D27EE4A80006056EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F896F3E27EE4A80006056EC /* Build configuration list for PBXNativeTarget "NIBM BrokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F896F3F27EE4A80006056EC /* Debug */,
+				4F896F4027EE4A80006056EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F896F0C27EE4A7D006056EC /* Project object */;
+}
