@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		3E1EA5E8F646AC68C8D5B876 /* Pods_NIBM_Broker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD79E25D5663F43C1541CA4 /* Pods_NIBM_Broker.framework */; };
 		4F4F675C27F0B178005F4CA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F4F675B27F0B178005F4CA4 /* GoogleService-Info.plist */; };
+		4F790A4C27F0CB820040A279 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F790A4B27F0CB820040A279 /* Launch Screen.storyboard */; };
+		4F790A4E27F0E1920040A279 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A4D27F0E1920040A279 /* SignInViewModel.swift */; };
+		4F790A5027F0E1B40040A279 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F790A4F27F0E1B40040A279 /* User.swift */; };
 		4F896F1827EE4A7D006056EC /* NIBM_BrokerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F896F1727EE4A7D006056EC /* NIBM_BrokerApp.swift */; };
-		4F896F1A27EE4A7D006056EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F896F1927EE4A7D006056EC /* ContentView.swift */; };
+		4F896F1A27EE4A7D006056EC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F896F1927EE4A7D006056EC /* SignInView.swift */; };
 		4F896F1C27EE4A7F006056EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F896F1B27EE4A7F006056EC /* Assets.xcassets */; };
 		4F896F1F27EE4A7F006056EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F896F1E27EE4A7F006056EC /* Preview Assets.xcassets */; };
 		4F896F2927EE4A80006056EC /* NIBM_BrokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F896F2827EE4A80006056EC /* NIBM_BrokerTests.swift */; };
@@ -46,9 +49,12 @@
 		23D012AC350715EA05759DD1 /* Pods-NIBM BrokerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM BrokerTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM BrokerTests/Pods-NIBM BrokerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C898F72FA5D06E05F10659E /* Pods-NIBM Broker-NIBM BrokerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Broker-NIBM BrokerUITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM Broker-NIBM BrokerUITests/Pods-NIBM Broker-NIBM BrokerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F4F675B27F0B178005F4CA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4F790A4B27F0CB820040A279 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4F790A4D27F0E1920040A279 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		4F790A4F27F0E1B40040A279 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4F896F1427EE4A7D006056EC /* NIBM Broker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM Broker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F896F1727EE4A7D006056EC /* NIBM_BrokerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_BrokerApp.swift; sourceTree = "<group>"; };
-		4F896F1927EE4A7D006056EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F896F1927EE4A7D006056EC /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		4F896F1B27EE4A7F006056EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F896F1E27EE4A7F006056EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F896F2427EE4A80006056EC /* NIBM BrokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIBM BrokerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,7 +139,6 @@
 				4F896F4227EE4B5C006056EC /* View */,
 				4F896F4127EE4B56006056EC /* Model */,
 				4F896F1727EE4A7D006056EC /* NIBM_BrokerApp.swift */,
-				4F896F1927EE4A7D006056EC /* ContentView.swift */,
 				4F896F1B27EE4A7F006056EC /* Assets.xcassets */,
 				4F896F1D27EE4A7F006056EC /* Preview Content */,
 			);
@@ -168,6 +173,7 @@
 		4F896F4127EE4B56006056EC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F790A4F27F0E1B40040A279 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 		4F896F4227EE4B5C006056EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4F896F1927EE4A7D006056EC /* SignInView.swift */,
+				4F790A4B27F0CB820040A279 /* Launch Screen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +190,7 @@
 		4F896F4327EE4B61006056EC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4F790A4D27F0E1920040A279 /* SignInViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -232,7 +241,6 @@
 				23D012AC350715EA05759DD1 /* Pods-NIBM BrokerTests.debug.xcconfig */,
 				8623CC3E636BCA94C6FBD54A /* Pods-NIBM BrokerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -348,6 +356,7 @@
 				4F896F4D27EE50CF006056EC /* gilroy-extrabold.ttf in Resources */,
 				4F4F675C27F0B178005F4CA4 /* GoogleService-Info.plist in Resources */,
 				4F896F4F27EE50CF006056EC /* gilroy-bold.ttf in Resources */,
+				4F790A4C27F0CB820040A279 /* Launch Screen.storyboard in Resources */,
 				4F896F4E27EE50CF006056EC /* gilroy-medium.ttf in Resources */,
 				4F896F4C27EE50CF006056EC /* gilroy-semibold.ttf in Resources */,
 				4F896F5027EE50CF006056EC /* gilroy-regular.ttf in Resources */,
@@ -480,8 +489,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F896F1A27EE4A7D006056EC /* ContentView.swift in Sources */,
+				4F790A5027F0E1B40040A279 /* User.swift in Sources */,
+				4F896F1A27EE4A7D006056EC /* SignInView.swift in Sources */,
 				4F896F1827EE4A7D006056EC /* NIBM_BrokerApp.swift in Sources */,
+				4F790A4E27F0E1920040A279 /* SignInViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +661,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -681,6 +693,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
